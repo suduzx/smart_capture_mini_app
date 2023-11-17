@@ -1,0 +1,1 @@
+enum ConfirmValue { confirm, cancel }

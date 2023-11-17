@@ -1,0 +1,63 @@
+name: smart_capture_mobile
+description: A new MPFlutter project.
+publish_to: "none"
+version: 1.0.0+1
+playbox:
+  name: 模板工程
+  description:
+  icon: school
+  background: blue
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+dependencies:
+  flutter:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/flutter
+  mpcore:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mpcore
+  mp_permission_handler:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_permission_handler
+  mp_path_provider:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_path_provider
+  mp_edge_detection:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_edge_detection
+  mp_file:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_file
+  convert_image_to_pdf:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_convert_image_to_pdf
+  mp_syncfunsion_flutter_pdfviewer:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_syncfunsion_flutter_pdfviewer
+  mp_build_tools:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_build_tools
+  get:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/getx
+  dio:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/dio
+  mp_camera_preview:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_camera_preview_core
+  flutter_image_edit_watermark:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_flutter_water_mark
+  mp_connectivity_plus:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_connectivity_plus
+  device_info_plus:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mp_device_info
+  bloc: ^8.1.2
+  flutter_bloc: 8.1.3
+  image: ^3.1.3
+  encrypt: ^5.0.1
+  bot_toast: ^4.1.3
+  uuid: ^4.1.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+dependency_overrides:
+  flutter:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/flutter
+  mpcore:
+    path: /Users/mini/Documents/mb/mini_app/sdk_mb_flutter/mbflutter/packages/mpcore
+
+flutter:
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
